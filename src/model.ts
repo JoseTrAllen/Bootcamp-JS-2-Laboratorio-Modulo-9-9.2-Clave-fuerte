@@ -1,5 +1,5 @@
 
-//Palabras comunes que no debe contener el la contraseña
+//Palabras comunes que no debe contener la contraseña
 export const commonPasswords: string[] = [
   "password",
   "123456",
