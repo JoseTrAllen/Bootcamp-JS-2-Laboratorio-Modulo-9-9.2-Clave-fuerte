@@ -275,7 +275,7 @@ describe("tienePalabrasComunes", () => {
     //Assert
     expect(resultado).toThrowError("Algo ha salido mal");
   });
-  it("Debería devolver que la conraseña no forma parte del array de palabrasnpm run test comunes", () => {
+  it("Debería devolver que la conraseña no forma parte del array de palabras comunes", () => {
     //Arrange
     const clave = "Casa";
     const clavesComunes = commonPasswords;
