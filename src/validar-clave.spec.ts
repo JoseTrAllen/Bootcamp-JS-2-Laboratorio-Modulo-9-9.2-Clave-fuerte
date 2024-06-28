@@ -38,7 +38,7 @@ describe("validarClave", () => {
     // Arrange
     //Modificando nombreUsuario y/o clave se pueden hacer todos los test de error
     const nombreUsuario = "Pepe";
-    const clave = "Mustang!1234";
+    const clave = "Casa!1234";
     const clavesComunes = commonPasswords;
     // Act
     const resultado = validarClave(nombreUsuario, clave, clavesComunes);
